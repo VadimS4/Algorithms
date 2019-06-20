@@ -1,6 +1,6 @@
 function largestOfFour(array) {
-    
-    largestArray = []
+
+    largestArray = [];
 
     for (let i = 0; i < array.length; i++) {
         let largestNumber = 0;
@@ -9,7 +9,7 @@ function largestOfFour(array) {
                 largestNumber = array[i][j]
             }
         }
-        largestArray.push(largestNumber)
+        largestArray.push(largestNumber);
     }
     return largestArray;
 }
