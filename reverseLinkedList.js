@@ -1,7 +1,4 @@
-function LinkedListNode(value) {
-    this.value = value;
-    this.next = null;
-}
+//LeetCode LinkedList reverse algorithm
 
 let reverseList = function (head) {
     let node = head;
