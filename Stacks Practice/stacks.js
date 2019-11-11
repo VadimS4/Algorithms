@@ -10,7 +10,7 @@ class Stack {
     constructor() {
         this.top = null;
     }
-    
+
     push(data) {
         const newNode = new Node(data);
         newNode.previous = this.top;
